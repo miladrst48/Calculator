@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+}
+.calculator {
+    height: 540px;
+    width: 360px;
+    
+}
+
+.display {
+    height: 25%;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.buttonsArea {
+    height: 75%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.numbersSection {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.numbersSection button {
+    height: 25%;
+    width: 33.3%;
+    
+}
+
+.operatorsSection {
+    width: 20%;
+    display: flex;
+    flex-direction: culomn;
+    flex-wrap: wrap;
+}
+
+.operatorsSection button {
+    height: 16.7%;
+    width: 100%;
+}
+
+
+
+
